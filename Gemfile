@@ -48,3 +48,6 @@ end
 
 
 gem "active_model_serializers", "~> 0.10.13"
+
+# makes IDs reset when re-seeding
+gem 'activerecord-reset-pk-sequence'
